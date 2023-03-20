@@ -1,0 +1,49 @@
+html {
+    background-color: #e3e2e2;
+    display: table;
+    margin: auto;
+    font-family: Roboto,-apple-system,apple color emoji,BlinkMacSystemFont,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 16px;
+}
+
+body {
+    width: 70%;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+
+
+}
+
+.telegram-button {
+    font-family: Roboto,-apple-system,apple color emoji,BlinkMacSystemFont,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(51, 144, 236);
+    padding: 18px 18px 18px 18px;
+    border-width: 1px;
+    border-color: rgb(51, 144, 236);
+    border-radius: 3px;
+    border-style: solid;
+    transition: opacity 0.15s;
+}
+
+.telegram-button:hover {
+    background-color: rgb(51, 144, 236);
+    color: white;
+    opacity: 0.8;
+}
+
+.telegram-button:active {
+    opacity: 0.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
